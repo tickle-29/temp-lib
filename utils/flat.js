@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.flat=void 0;const flat=e=>Array.isArray(e)?e.reduce(((e,t)=>e.concat(t)),[]):e;exports.flat=flat;

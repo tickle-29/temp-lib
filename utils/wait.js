@@ -1,0 +1,1 @@
+"use strict";async function waitTillAvailable(e){for(let i=0;i<30;i++){const i=await e();if(i)return i;await new Promise((e=>setTimeout(e,50)))}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.waitTillAvailable=void 0,exports.waitTillAvailable=waitTillAvailable;

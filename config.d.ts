@@ -1,0 +1,18 @@
+export { setGoogleFonts, addGlobalFont, removeGlobalFont, replaceGlobalFonts, } from './utils/fonts';
+export { setUploadFunc } from './side-panel/upload-panel';
+export { toggleFadeInAnimation } from './canvas/use-fadein';
+export { setImageLoaderHook as unstable_setImageLoaderHook } from './canvas/image-element';
+export { registerShapeModel as unstable_registerShapeModel } from './model/store';
+export { registerShapeComponent as unstable_registerShapeComponent } from './canvas/element';
+export { registerTransformerAttrs as unstable_registerTransformerAttrs } from './canvas/page';
+export { registerToolbarComponent as unstable_registerToolbarComponent } from './toolbar/toolbar';
+export { onLoadError } from './utils/loader';
+export { setTranslations, getTranslations } from './utils/l10n';
+export { registerNextDomDrop as unstable_registerNextDomDrop } from './canvas/page';
+export { getGoogleFontsListAPI, getGoogleFontImage, setAPI } from './utils/api';
+export { useDownScaling } from './utils/flags';
+export { useRemoveBackground as unstable_setRemoveBackgroundEnabled } from './utils/flags';
+export { useHtmlTextRender as unstable_useHtmlTextRender } from './utils/flags';
+export { setForceTextFit as unstable_setForceTextFit } from './utils/flags';
+export { setTextOverflow as unstable_setTextOverflow } from './utils/flags';
+export { setTextVerticalResizeEnabled as unstable_setTextVerticalResizeEnabled } from './utils/flags';

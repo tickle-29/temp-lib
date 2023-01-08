@@ -1,0 +1,1 @@
+"use strict";function removeTags(e=""){return e.replace(/(<([^>]+)>)/gi,"")}Object.defineProperty(exports,"__esModule",{value:!0}),exports.removeTags=void 0,exports.removeTags=removeTags;
